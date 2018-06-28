@@ -11,7 +11,7 @@ export class AuthService {
   public userProfile:any;
 
   auth0 = new auth0.WebAuth({
-    clientID: 'EHKbB5-_oiwGiT2ISQTrf-8mMJenPV-V',
+    // clientID: 'EHKbB5-_oiwGiT2ISQTrf-8mMJenPV-V',
     domain: 'josuer.auth0.com',
     responseType: 'token id_token',
     audience: 'https://josuer.auth0.com/userinfo',
